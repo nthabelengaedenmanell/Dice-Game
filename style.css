@@ -1,0 +1,227 @@
+/* Sets the background color of the body */
+body {
+    background-color: #353839;
+    margin: 0;
+    font-family: "Lobster", cursive;
+}
+
+/* Styles for a container element */
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Styles for a dice element */
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* 
+Styles for heading level 1 
+*/
+h1 {
+    font-weight: 800;
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* 
+Styles for paragraph elements 
+*/
+p {
+    font-size: 2.5rem;
+    color: #e7eaf6;
+}
+
+/* 
+Styles for image elements 
+*/
+img {
+    width: 180px;
+    height: auto;
+    border: #4ECCA3 solid 5px;
+    background-color: #4ECCA3;
+    border-radius: 30px;
+}
+
+/* 
+Styles for a bottom class 
+*/
+.bottom {
+    padding-top: 30px;
+}
+
+/* Styles for a button class */
+.butn {
+    background: #000000;
+    font-family: "Indie Flower", cursive;
+    border-radius: 30px;
+    border: #4ECCA3 solid 4px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styles for anchor elements */
+a {
+    text-decoration: none;
+}
+
+/* Styles for a button class on hover */
+.butn:hover {
+    background: #4ECCA3;
+    padding: 16px 35px 16px 35px;
+    text-decoration: none;
+    border: #4ECCA3 solid 4px;
+}
+
+/* Styles for a main background class */
+.main__bg {
+    background-image: linear-gradient(-60deg, #4ECCA3 50%, #000000 50%);
+    animation: slide 3s ease-in-out infinite alternate;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+/* Styles for a layer1 class */
+.layer1 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+/* Styles for a layer2 class */
+.layer2 {
+    animation-duration: 5s;
+}
+
+/* Keyframes for the slide animation */
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(25%);
+    }
+}
+
+/* Styles for an element with the id "active-btn" */
+#active-btn {
+    font-size: 25px;
+}
+
+/* Styles for an element with the class "active-container" */
+.active-container {
+    margin: 5px;
+}
+
+/* Styles for an element with the id "link-btn" */
+#link-btn {
+    color: #ffffff;
+}
+
+/* Styles for a footer heading level 1 */
+.footer-h1 {
+    font-weight: 800;
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Styles for an element with the id "btn-text" */
+#btn-text {
+    font-size: 20px;
+    background-color: #4ECCA3;
+    font-family: "Indie Flower", cursive;
+    border-radius: 30px;
+    border: #000000 solid 4px;
+    color: rgb(0, 0, 0);
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/* Styles for an element with the id "btn-text" on hover */
+#btn-text:hover {
+    font-size: 20px;
+    background-color: #000000;
+    font-family: "Indie Flower", cursive;
+    border-radius: 30px;
+    border: #000000 solid 4px;
+    color: rgb(255, 255, 255);
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styles for a footer element */
+footer {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/* Styles for an element with the id "header" */
+#header {
+    font-weight: 800;
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Styles for an element with the id "index-text" */
+#index-text {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+/* Styles for an element with the id "index-btn" on hover */
+#index-btn:hover {
+    font-size: 20px;
+    background-color: #4ECCA3;
+    font-family: "Indie Flower", cursive;
+    border-radius: 30px;
+    border: #4ECCA3 solid 4px;
+    color: rgb(255, 255, 255);
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/* Styles for an element with the id "index-btn" */
+#index-btn {
+    font-size: 20px;
+    background-color: #000000;
+    font-family: "Indie Flower", cursive;
+    border-radius: 30px;
+    border: #ffffff solid 4px;
+    color: #4ECCA3;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/* Styles for a welcome section */
+.welcome-section {
+    padding-top: 100px;
+}
