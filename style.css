@@ -2,7 +2,7 @@
 body {
     background-color: #353839;
     margin: 0;
-    font-family: "Lobster", cursive;
+    font-family: "Audiowide", sans-serif;
 }
 
 /* Styles for a container element */
@@ -25,7 +25,6 @@ Styles for heading level 1
 h1 {
     font-weight: 800;
     margin: 30px;
-    font-family: "Lobster", cursive;
     text-shadow: 5px 0 #232931;
     font-size: 4.5rem;
     color: #ffffff;
@@ -61,7 +60,6 @@ Styles for a bottom class
 /* Styles for a button class */
 .butn {
     background: #000000;
-    font-family: "Indie Flower", cursive;
     border-radius: 30px;
     border: #4ECCA3 solid 4px;
     color: rgb(255, 255, 255);
@@ -137,7 +135,6 @@ a {
 .footer-h1 {
     font-weight: 800;
     margin: 30px;
-    font-family: "Lobster", cursive;
     font-size: 1.3rem;
     color: #ffffff;
     text-align: center;
@@ -147,7 +144,6 @@ a {
 #btn-text {
     font-size: 20px;
     background-color: #4ECCA3;
-    font-family: "Indie Flower", cursive;
     border-radius: 30px;
     border: #000000 solid 4px;
     color: rgb(0, 0, 0);
@@ -161,7 +157,6 @@ a {
 #btn-text:hover {
     font-size: 20px;
     background-color: #000000;
-    font-family: "Indie Flower", cursive;
     border-radius: 30px;
     border: #000000 solid 4px;
     color: rgb(255, 255, 255);
@@ -180,7 +175,6 @@ footer {
 #header {
     font-weight: 800;
     margin: 30px;
-    font-family: "Lobster", cursive;
     text-shadow: 5px 0 #232931;
     font-size: 3rem;
     color: #ffffff;
@@ -197,7 +191,6 @@ footer {
 #index-btn:hover {
     font-size: 20px;
     background-color: #4ECCA3;
-    font-family: "Indie Flower", cursive;
     border-radius: 30px;
     border: #4ECCA3 solid 4px;
     color: rgb(255, 255, 255);
@@ -211,7 +204,6 @@ footer {
 #index-btn {
     font-size: 20px;
     background-color: #000000;
-    font-family: "Indie Flower", cursive;
     border-radius: 30px;
     border: #ffffff solid 4px;
     color: #4ECCA3;
