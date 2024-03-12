@@ -1,219 +1,374 @@
 /* Sets the background color of the body */
 body {
-    background-color: #353839;
-    margin: 0;
-    font-family: "Audiowide", sans-serif;
+  background-color: #353839;
+  margin: 0;
+  font-family: "Audiowide", sans-serif;
 }
 
 /* Styles for a container element */
 .container {
-    width: 70%;
-    margin: auto;
-    text-align: center;
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
 
 /* Styles for a dice element */
 .dice {
-    text-align: center;
-    display: inline-block;
-    margin: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
 }
 
 /* 
 Styles for heading level 1 
 */
 h1 {
-    font-weight: 800;
-    margin: 30px;
-    text-shadow: 5px 0 #232931;
-    font-size: 4.5rem;
-    color: #ffffff;
-    text-align: center;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 3.5rem;
+  color: #ffffff;
+  text-align: center;
 }
 
 /* 
 Styles for paragraph elements 
 */
 p {
-    font-size: 2.5rem;
-    color: #e7eaf6;
+  font-size: 2.5rem;
+  color: #e7eaf6;
 }
 
 /* 
 Styles for image elements 
 */
 img {
-    width: 180px;
-    height: auto;
-    border: #4ECCA3 solid 5px;
-    background-color: #4ECCA3;
-    border-radius: 30px;
+  width: 180px;
+  height: auto;
+  border: #4ecca3 solid 5px;
+  background-color: #4ecca3;
+  border-radius: 30px;
 }
 
 /* 
 Styles for a bottom class 
 */
 .bottom {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 /* Styles for a button class */
 .butn {
-    background: #000000;
-    border-radius: 30px;
-    border: #4ECCA3 solid 4px;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 16px 25px 16px 25px;
-    text-decoration: none;
-    font-weight: bold;
+  background: #000000;
+  border-radius: 30px;
+  border: #4ecca3 solid 4px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Styles for anchor elements */
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Styles for a button class on hover */
 .butn:hover {
-    background: #4ECCA3;
-    padding: 16px 35px 16px 35px;
-    text-decoration: none;
-    border: #4ECCA3 solid 4px;
+  background: #4ecca3;
+  padding: 16px 35px 16px 35px;
+  text-decoration: none;
+  border: #4ecca3 solid 4px;
 }
 
 /* Styles for a main background class */
 .main__bg {
-    background-image: linear-gradient(-60deg, #4ECCA3 50%, #000000 50%);
-    animation: slide 3s ease-in-out infinite alternate;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: -50%;
-    right: -50%;
-    opacity: 0.5;
-    z-index: -1;
+  background-image: linear-gradient(-60deg, #4ecca3 50%, #000000 50%);
+  animation: slide 3s ease-in-out infinite alternate;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -50%;
+  right: -50%;
+  opacity: 0.5;
+  z-index: -1;
 }
 
 /* Styles for a layer1 class */
 .layer1 {
-    animation-direction: alternate-reverse;
-    animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
 }
 
 /* Styles for a layer2 class */
 .layer2 {
-    animation-duration: 5s;
+  animation-duration: 5s;
 }
 
 /* Keyframes for the slide animation */
 @keyframes slide {
-    0% {
-        transform: translateX(-25%);
-    }
-    100% {
-        transform: translateX(25%);
-    }
+  0% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(25%);
+  }
 }
 
 /* Styles for an element with the id "active-btn" */
 #active-btn {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /* Styles for an element with the class "active-container" */
 .active-container {
-    margin: 5px;
+  margin: 5px;
 }
 
 /* Styles for an element with the id "link-btn" */
 #link-btn {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* Styles for a footer heading level 1 */
 .footer-h1 {
-    font-weight: 800;
-    margin: 30px;
-    font-size: 1.3rem;
-    color: #ffffff;
-    text-align: center;
+  font-weight: 300;
+  margin: 30px;
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-align: center;
 }
 
 /* Styles for an element with the id "btn-text" */
 #btn-text {
-    font-size: 20px;
-    background-color: #4ECCA3;
-    border-radius: 30px;
-    border: #000000 solid 4px;
-    color: rgb(0, 0, 0);
-    padding: 16px 25px 16px 25px;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 5px;
+  font-size: 20px;
+  background-color: #4ecca3;
+  border-radius: 30px;
+  border: #000000 solid 4px;
+  color: rgb(0, 0, 0);
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
 }
 
 /* Styles for an element with the id "btn-text" on hover */
 #btn-text:hover {
-    font-size: 20px;
-    background-color: #000000;
-    border-radius: 30px;
-    border: #000000 solid 4px;
-    color: rgb(255, 255, 255);
-    padding: 16px 25px 16px 25px;
-    text-decoration: none;
-    font-weight: bold;
+  font-size: 20px;
+  background-color: #000000;
+  border-radius: 30px;
+  border: #000000 solid 4px;
+  color: rgb(255, 255, 255);
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Styles for a footer element */
 footer {
-    margin-top: 150px;
-    margin-bottom: 50px;
+  margin-top: 150px;
+  margin-bottom: 20px;
 }
 
 /* Styles for an element with the id "header" */
 #header {
-    font-weight: 800;
-    margin: 30px;
-    text-shadow: 5px 0 #232931;
-    font-size: 3rem;
-    color: #ffffff;
-    text-align: center;
+  font-weight: 800;
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.game-rules {
+  font-weight: 200;
+  font-size: 1.25rem;
+  padding: -15px;
+  color: #ffffff;
+  text-align: center;
 }
 
 /* Styles for an element with the id "index-text" */
 #index-text {
-    color: rgb(255, 255, 255);
-    font-size: 22px;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
 }
 
 /* Styles for an element with the id "index-btn" on hover */
 #index-btn:hover {
-    font-size: 20px;
-    background-color: #4ECCA3;
-    border-radius: 30px;
-    border: #4ECCA3 solid 4px;
-    color: rgb(255, 255, 255);
-    padding: 16px 25px 16px 25px;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 5px;
+  font-size: 20px;
+  background-color: #4ecca3;
+  border-radius: 30px;
+  border: #4ecca3 solid 4px;
+  color: rgb(255, 255, 255);
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
 }
 
 /* Styles for an element with the id "index-btn" */
 #index-btn {
-    font-size: 20px;
-    background-color: #000000;
-    border-radius: 30px;
-    border: #ffffff solid 4px;
-    color: #4ECCA3;
-    padding: 16px 25px 16px 25px;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 5px;
+  font-size: 20px;
+  background-color: #000000;
+  border-radius: 30px;
+  border: #ffffff solid 4px;
+  color: #4ecca3;
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
 }
 
 /* Styles for a welcome section */
 .welcome-section {
-    padding-top: 100px;
+  padding-top: 100px;
+}
+
+/* Styles for the Leaderboard Section */
+#Leaderboard-Section {
+  font-size: 20px;
+  background-color: #4ecca3;
+  border-radius: 30px;
+  color: #000000;
+  padding: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 35px;
+}
+
+/* Styles for the Leaderboard Heading */
+#leaderboard-h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
+/* Styles for the Leaderboard Paragraph */
+.leaderboard-p {
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Styles for the Leaderboard Div */
+#leaderboard-div {
+  border-radius: 30px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  #Leaderboard-Section {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  #leaderboard-h2 {
+    font-size: 28px;
+  }
+  
+  .leaderboard-p {
+    font-size: 24px;
+  }
+  
+  #leaderboard-div {
+    padding: 10px;
+  }
+}
+
+/* For screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  #Leaderboard-Section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  #leaderboard-h2 {
+    font-size: 24px;
+  }
+  
+  .leaderboard-p {
+    font-size: 20px;
+  }
+  
+  #leaderboard-div {
+    padding: 5px;
+  }
+}
+
+/* Styles for the Dice Game Rules Section */
+.dicegame-rules {
+  border-radius: 30px;
+  margin-top: 20px;
+  background-color: #4ecca3;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Styles for the Game Rules */
+.game-rules {
+  border-radius: 25px;
+  margin: 10px;
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 10px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: -0.1px;
+  color: #000000;
+}
+
+/* Styles for the Game Rules Container */
+.gamerules {
+  margin-top: -40px;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .dicegame-rules {
+    padding: 20px;
+  }
+  
+  .game-rules {
+    font-size: 20px;
+  }
+}
+
+/* For screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .dicegame-rules {
+    padding: 10px;
+  }
+  
+  .game-rules {
+    font-size: 18px;
+  }
+}
+
+.Player1{
+  color: #ffffff;
+}
+
+.Player2{
+  color: #ffffff;
 }
